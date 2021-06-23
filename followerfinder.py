@@ -9,12 +9,11 @@ def get_time():
 
 def main():
     logo = f"""
-    {Style.BRIGHT + Fore.RED}L{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}A   {Style.BRIGHT + Fore.MAGENTA}Instagram Kitleye Göre Takipçi Bulucu{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}D   {Style.BRIGHT + Fore.RED}+-----------------------------------+{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}R             {Style.BRIGHT + Fore.YELLOW}Ladroa{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}O{Style.RESET_ALL}
-
+    {Style.BRIGHT + Fore.RED}  ▄▄ ▄███▄{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}▄▀▀▀▀ ▄▄▄ ▀▀▀▀▄   {Style.BRIGHT + Fore.MAGENTA} Kitleye Göre Takipçi Bulucu{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}█    █   █    █   {Style.BRIGHT + Fore.RED}+-----------------------------------+{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}█    ▀▄▄▄▀    █             {Style.BRIGHT + Fore.YELLOW}Ladroa{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀{Style.RESET_ALL}
     """
     print(logo)
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.MAGENTA}[?] {Style.BRIGHT + Fore.WHITE}Hangi takip etme yöntemini kullanmak istersiniz:{Style.RESET_ALL}")
