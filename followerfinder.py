@@ -74,7 +74,7 @@ def main():
     print("")
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.GREEN}[+] {Style.BRIGHT + Fore.WHITE}Giriş yapıldı!{Style.RESET_ALL}")
     
-    if ("R35" not in logo):
+    if ("LADROA" not in logo):
         print("Ladroa")
         exit(0)
 
