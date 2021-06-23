@@ -75,7 +75,7 @@ def main():
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.GREEN}[+] {Style.BRIGHT + Fore.WHITE}Giriş yapıldı!{Style.RESET_ALL}")
     
     if ("R35" not in logo):
-        print("Bu programı R35'den çaldım ve o kadar malım ki bunu da kaldırmayı unuttum.")
+        print("Ladroa")
         exit(0)
 
     if (method == "1"):
