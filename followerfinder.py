@@ -74,10 +74,6 @@ def main():
     
     print("")
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.GREEN}[+] {Style.BRIGHT + Fore.WHITE}Giriş yapıldı!{Style.RESET_ALL}")
-    
-    if ("R35" not in logo):
-        print("Bu programı R35'den çaldım ve o kadar malım ki bunu da kaldırmayı unuttum.")
-        exit(0)
 
     if (method == "1"):
         print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.MAGENTA}[?] {Style.BRIGHT + Fore.WHITE}Aramak istediğiniz hastagleri giriniz ('#' siz ve hastagler arası virgül koyunuz):{Style.RESET_ALL} ", end="")
