@@ -9,10 +9,10 @@ def get_time():
 
 def main():
     logo = f"""
-    {Style.BRIGHT + Fore.RED}  ▄▄ ▄███▄{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.BLUE}LADROA{Style.RESET_ALL}
     {Style.BRIGHT + Fore.RED}▄▀▀▀▀ ▄▄▄ ▀▀▀▀▄   {Style.BRIGHT + Fore.MAGENTA}Instagram Kitleye Göre Takipçi Bulucu{Style.RESET_ALL}
     {Style.BRIGHT + Fore.RED}█    █   █    █   {Style.BRIGHT + Fore.RED}+-----------------------------------+{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}█    ▀▄▄▄▀    █             {Style.BRIGHT + Fore.YELLOW}Coded by R35{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}█    ▀▄▄▄▀    █             {Style.BRIGHT + Fore.YELLOW}Discord Ladroa#0001 TR{Style.RESET_ALL}
     {Style.BRIGHT + Fore.RED}▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀{Style.RESET_ALL}
     """
     print(logo)
