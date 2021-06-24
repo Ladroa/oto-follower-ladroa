@@ -9,12 +9,11 @@ def get_time():
 
 def main():
     logo = f"""
-    {Style.BRIGHT + Fore.RED}L{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}A   {Style.BRIGHT + Fore.MAGENTA}Instagram Kitleye Göre Takipçi Bulucu{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}D   {Style.BRIGHT + Fore.RED}+-----------------------------------+{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}R             {Style.BRIGHT + Fore.YELLOW}Ladroa{Style.RESET_ALL}
-    {Style.BRIGHT + Fore.RED}O{Style.RESET_ALL}
-
+    {Style.BRIGHT + Fore.RED}  ▄▄ ▄███▄{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}▄▀▀▀▀ ▄▄▄ ▀▀▀▀▄   {Style.BRIGHT + Fore.MAGENTA}Instagram Kitleye Göre Takipçi Bulucu{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}█    █   █    █   {Style.BRIGHT + Fore.RED}+-----------------------------------+{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}█    ▀▄▄▄▀    █             {Style.BRIGHT + Fore.YELLOW}Coded by R35{Style.RESET_ALL}
+    {Style.BRIGHT + Fore.RED}▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀{Style.RESET_ALL}
     """
     print(logo)
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.MAGENTA}[?] {Style.BRIGHT + Fore.WHITE}Hangi takip etme yöntemini kullanmak istersiniz:{Style.RESET_ALL}")
@@ -74,6 +73,10 @@ def main():
     
     print("")
     print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.GREEN}[+] {Style.BRIGHT + Fore.WHITE}Giriş yapıldı!{Style.RESET_ALL}")
+    
+    if ("R35" not in logo):
+        print("Bu programı R35'den çaldım ve o kadar malım ki bunu da kaldırmayı unuttum.")
+        exit(0)
 
     if (method == "1"):
         print(f"{Style.RESET_ALL}{get_time()} {Style.BRIGHT + Fore.MAGENTA}[?] {Style.BRIGHT + Fore.WHITE}Aramak istediğiniz hastagleri giriniz ('#' siz ve hastagler arası virgül koyunuz):{Style.RESET_ALL} ", end="")
